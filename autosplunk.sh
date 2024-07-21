@@ -1,0 +1,1 @@
+./splunkinstall.sh
