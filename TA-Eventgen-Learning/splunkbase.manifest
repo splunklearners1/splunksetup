@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "date": "2024-01-25T12:38:42.998868997Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 7111,
+    "version": "1.1.1",
+    "files": [
+      {
+        "path": "LICENSE",
+        "hash": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "README/eventgen.conf.spec",
+        "hash": "e8e1ad27d0cb1e31022421d87ac00c8f0fc9757fbdca2d97c1f437071cd2522d"
+      },
+      {
+        "path": "README.md",
+        "hash": "b13f784a2c40cefbd8420df1199f6dedaf3b9627d3b23539cf375763987159db"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "cc658946655f3274eb50f8447b6ca6c75a449a2424f7a077c07965ede12db762"
+      },
+      {
+        "path": "bin/generate_climate_data.py",
+        "hash": "08ebcea705c6c8849d9fbcdec88ded746b155dd2b7928d2615756e09c418d6e3"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "f4d361062471cb753e79b50c6deb0e4580a6ce7441188f03b770586822861f2a"
+      },
+      {
+        "path": "default/eventgen.conf",
+        "hash": "82d466fac68d463a319f9486800087479b2f2e35af57d08fabb58ee800cd1b3b"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "984c75fe47028f454d9d87a70130be65da06050e8aac92e38bc466bc240276e2"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "1cd30098c547d3715f9569c3f67395cc0e96729db25c2ee4d84b2e1dfa6bdd04"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "c6b1fa816c61ee59f3c5423196f7f4e76a90bc62fe895a83d59d12b6fe4c24c3"
+      },
+      {
+        "path": "default/transforms.conf",
+        "hash": "20b55fae7fd8ecfd3615419a67077f8c7640074877e529d4c174848ff42a55bc"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "a859133c30a2564e02159c4747bb201d3c56592c47827d982d07aca36ee39c73"
+      },
+      {
+        "path": "samples/404_referer_urls.sample",
+        "hash": "6c5f2476f777030960754cd5ffcc6352099a0764be73812844cf56bab03f2e29"
+      },
+      {
+        "path": "samples/404_uris.sample",
+        "hash": "55f32d277e12327e13377021c0bb4ae4306628fad260db593a12bf4efcfbca01"
+      },
+      {
+        "path": "samples/apache_access_demo.csv_original",
+        "hash": "40978afacbca6ea0db37210422a6c73f536761cf66bab4fe82e6cfad21eb958a"
+      },
+      {
+        "path": "samples/apache_access_demo.sample",
+        "hash": "37e6d024c986d6824db08f0ec5365f948793a7703f67b87a13744d6a62ebb43e"
+      },
+      {
+        "path": "samples/atm.cef",
+        "hash": "72636f4844ceae0733476467551de8534fc5dac27deefaaef15dc70b4c7cf3de"
+      },
+      {
+        "path": "samples/atm_currency.sample",
+        "hash": "c07bce12fbfd54d92f2bd2a6f4e1b816ce53db66802a25f36d022b56b9d7e076"
+      },
+      {
+        "path": "samples/buttercupgame_clientip.sample",
+        "hash": "07c8ac513bb9aed59af96640447e4ffe8bb31e314b44ae2023119b3b4ca63b41"
+      },
+      {
+        "path": "samples/buttercupgame_referer.sample",
+        "hash": "1d71cec844d6f52ca2dbe91bbba5e436dc24939944860b5bc98485be9482f420"
+      },
+      {
+        "path": "samples/buttercupgame_uris.sample",
+        "hash": "c1f0facba623966969eec2f1b2b446a653636b32d635b08ea7842a4dd1e1474c"
+      },
+      {
+        "path": "samples/buttercupgame_useragent.sample",
+        "hash": "2d8725f595354b08dac3b09bb8cfec9005ec01c2e606eabbd482e55bf4b91f83"
+      },
+      {
+        "path": "samples/climate_sensors.sample",
+        "hash": "e0b9da4f2cb864ba2f84e776ebeb483a8c11470f549fc04be492c8ea765fa9de"
+      },
+      {
+        "path": "samples/external_ips.sample",
+        "hash": "4f8ac29e1e52bc4e2484c806ebedfa51579d2bae8b447d9d34b79de81522a782"
+      },
+      {
+        "path": "samples/firewall.csv_original",
+        "hash": "91802940e068f59d954fcf00bda70c2f3b3e38497ea458408419dc3f234f0631"
+      },
+      {
+        "path": "samples/firewall.sample",
+        "hash": "fee43b8725f21ff1be1a8579db5987ece61e9090cb0f85ac7c62df053403fc57"
+      },
+      {
+        "path": "samples/firewall_name.sample",
+        "hash": "e5f48f886311ce0769caed73449ac82a714bc3f5ae63f5e9e97e4af1da40bb6f"
+      },
+      {
+        "path": "samples/messagetrace.log",
+        "hash": "8177e3743d9941812537782479f6e755277c7004099fbde9334fcfcd422d4e2e"
+      },
+      {
+        "path": "samples/messagetrace_domain.sample",
+        "hash": "031ec39360e9382977d124372f32d31e1f9ec775801ee6e60ed2b77bed139141"
+      },
+      {
+        "path": "samples/messagetrace_name.sample",
+        "hash": "692ace3ec8720a39f8dc75caaa498c63bf5d3c5be05138868089a641e387528c"
+      },
+      {
+        "path": "samples/messagetrace_name_external.sample",
+        "hash": "3441b17e073b90a818b5ebdc21e6a4e0918b1bc67537ca9818dc31b1e22967a5"
+      },
+      {
+        "path": "samples/messagetrace_subject.sample",
+        "hash": "8e4f8e3919e9e5507e689bedd979947eb21be59783f9c072df57715e8543c391"
+      },
+      {
+        "path": "samples/status_code.sample",
+        "hash": "a4df5f6bf7166b9cc9d8d11b6d8aebd2eaf80aa2d3618e09530c9461040cc0d8"
+      },
+      {
+        "path": "samples/webhosts.sample",
+        "hash": "252b0536d9e525c940dd5a7d388632539393f7eec42234297bffb448d83f041d"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "25a69601b8fc65a9c5f886368344808355fe1c9e62feb41da8b15799fc2d0ee4"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "07b5bc7a90d5b464dc2d782b12db6123cf19f991da3062b5c88470ff6c9d0e2f"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    },
+    {
+      "platform": "splunk",
+      "product": "cloud",
+      "versions": [
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

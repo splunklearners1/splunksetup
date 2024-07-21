@@ -21,6 +21,9 @@ cd /splunk/splunk/bin
 ## Fix minimum free diskspace issue - only for lab environment not for production
 echo "[diskUsage]" >> /splunk/splunk/etc/system/local/server.conf
 echo "minFreeSpace = 50" >> /splunk/splunk/etc/system/local/server.conf
+cp -pr ./SA-Eventgen /splunk/splunk/etc/apps
+cp -pr ./TA-Eventgen-Learning /splunk/splunk/etc/apps
+cp -pr ./TA-squid_proxy_eventgen /splunk/splunk/etc/apps
 /splunk/splunk/bin/splunk restart
 ## Check splunk status
 ./splunk status

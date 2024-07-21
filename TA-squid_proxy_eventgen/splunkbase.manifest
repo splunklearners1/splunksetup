@@ -1,0 +1,84 @@
+{
+  "version": "1.0",
+  "date": "2022-12-27T10:01:00.237756477Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 6713,
+    "version": "1.0.2",
+    "files": [
+      {
+        "path": "LICENSE",
+        "hash": "6d7a0a4eaefcfc74b4cc6e2882feb26388245cab85b072c4f0196413a64926f5"
+      },
+      {
+        "path": "README/eventgen.conf.spec",
+        "hash": "87c98f5631e69b8fa06cb150b41d1bcbeefd02bde8ea8f07080426f46122be38"
+      },
+      {
+        "path": "README.md",
+        "hash": "d1fca8ecffea8bed55066311d2fef55616e3bce33842932240f04d5d1a1da2f6"
+      },
+      {
+        "path": "app.manifest",
+        "hash": "8c06e668f88b31da1c2837554298f98c4d799eea75cf5f50c409715deb785eb7"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "7ebdb48fb0c8e7c603677b0d8917c66a76f4b56b5ff1c64403342fe944a7ebcd"
+      },
+      {
+        "path": "default/eventgen.conf",
+        "hash": "c1dba5eb41587c44a0bba8b2fb102a8661bba125d8a63d5fa54604ab1666b026"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "a859133c30a2564e02159c4747bb201d3c56592c47827d982d07aca36ee39c73"
+      },
+      {
+        "path": "samples/external_https_hosts.sample",
+        "hash": "c8ff79507fd9dced988097fc65b7fc8ae5bf0c14511f2a5c92990a0944c08f4d"
+      },
+      {
+        "path": "samples/external_urls.sample",
+        "hash": "421d7fdf10c7f188c2811caaf5ac8176e05f3b98efc7313b59d15280971ec49f"
+      },
+      {
+        "path": "samples/internal_3rd_octet.sample",
+        "hash": "3444b0a434ec73975c3594628a05f781d9093dcfc23f9f23828c08816a6e9cc0"
+      },
+      {
+        "path": "samples/internal_4th_octet.sample",
+        "hash": "8a41b3816798afbe4d30b7366a2102a07880e6c0799381a929aca6f6c28e7838"
+      },
+      {
+        "path": "samples/proxy_access_demo.csv",
+        "hash": "81fb9c6ff4aa328f52f6bb2dda2ea88178c9af6133ee359f6215886957269ca6"
+      },
+      {
+        "path": "samples/referer_urls.sample",
+        "hash": "ba03565b05e8c0d2c1d00989900db74cb2f7680f6d8d69fca3d44748ad958d98"
+      },
+      {
+        "path": "samples/status_code.sample",
+        "hash": "85a8eba135b15aa2481820636c4f72044934a350d49f047ae914e5eaf17b415d"
+      },
+      {
+        "path": "samples/useragents.sample",
+        "hash": "cfc06e9e7c3df3428bbbb4bae9e41bc993426ab0077d1613349a454aaba5affe"
+      },
+      {
+        "path": "samples/username.sample",
+        "hash": "09d3d8d60b58d3780f7e766609eea92fe599a9c08787da9f6403e3aaafaf3d73"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "651b979cf91f1ea66457cce3d0492c709399e14fbad7eecbf561ecb45035ee65"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "439ef5118c57fa3a6b7c7ac51508c9b2a16a742dfe9d4764e6689497ceb118e5"
+      }
+    ]
+  },
+  "products": null
+}
