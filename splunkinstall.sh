@@ -26,5 +26,5 @@ cp -pr ./TA-squid_proxy_eventgen /splunk/splunk/etc/apps
 /splunk/splunk/bin/splunk add oneshot ./zomato.csv -index zomato -sourcetype csv -auth admin:Admeensd@7658
 /splunk/splunk/bin/splunk restart
 ## Check splunk status
-./splunk status
+/splunk/splunk/bin/splunk status
 echo "installation completed"
