@@ -21,9 +21,9 @@ echo "minFreeSpace = 50" >> /splunk/splunk/etc/system/local/server.conf
 cp -pr ./SA-Eventgen /splunk/splunk/etc/apps
 cp -pr ./TA-Eventgen-Learning /splunk/splunk/etc/apps
 cp -pr ./TA-squid_proxy_eventgen /splunk/splunk/etc/apps
-/splunk/splunk/bin/splunk add oneshot ./hrdata.csv -index hrdata -sourcetype csv -auth admin:Admeensd@7658
-/splunk/splunk/bin/splunk add oneshot ./zomato.csv -index zomato -sourcetype csv -auth admin:Admeensd@7658
 /splunk/splunk/bin/splunk restart
 ## Check splunk status
 /splunk/splunk/bin/splunk status
+/splunk/splunk/bin/splunk add oneshot ./hrdata.csv -index hrdata -sourcetype csv -auth admin:Admeensd@7658
+/splunk/splunk/bin/splunk add oneshot ./zomato.csv -index zomato -sourcetype csv -auth admin:Admeensd@7658
 echo "installation completed"
