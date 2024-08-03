@@ -28,3 +28,9 @@ chown -R splunk:splunk /splunk/splunk/etc/apps
 /splunk/splunk/bin/splunk add oneshot ./hrdata.csv -index hrdata -sourcetype csv -auth admin:Admeensd@7658
 /splunk/splunk/bin/splunk add oneshot ./zomato.csv -index zomato -sourcetype csv -auth admin:Admeensd@7658
 echo "installation completed"
+echo ""
+echo ""
+echo ""
+echo "#########################################################################################################"
+echo ""
+echo "Login UserName admin password Admeensd@7658"
