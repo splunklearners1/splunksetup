@@ -21,6 +21,7 @@ echo "minFreeSpace = 50" >> /splunk/splunk/etc/system/local/server.conf
 cp -pr ./SA-Eventgen /splunk/splunk/etc/apps
 cp -pr ./TA-Eventgen-Learning /splunk/splunk/etc/apps
 cp -pr ./TA-squid_proxy_eventgen /splunk/splunk/etc/apps
+chown -R splunk:splunk /splunk/splunk/etc/apps
 /splunk/splunk/bin/splunk restart
 ## Check splunk status
 /splunk/splunk/bin/splunk status
