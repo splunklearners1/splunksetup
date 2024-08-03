@@ -12,7 +12,7 @@ mkdir /splunk
 rpm -ivh --prefix /splunk splunk-9.2.1-78803f08aabb.x86_64.rpm
 
 ## Start splunk service, and feed password along with command, you can change password once you login to splunk portal 
-/splunk/splunk/bin start --accept-license --answer-yes --no-prompt --seed-passwd Admeensd@7658
+/splunk/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd Admeensd@7658
 
 ## Enable autostart of splunk service
 /splunk/splunk/bin enable boot-start
