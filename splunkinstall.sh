@@ -14,7 +14,7 @@ rpm -ivh --prefix /splunk splunk-9.3.0-51ccf43db5bd.x86_64.rpm
 /splunk/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd Admeensd@7658
 
 ## Enable autostart of splunk service
-/splunk/splunk/bin enable boot-start
+/splunk/splunk/bin/splunk enable boot-start
 ## Fix minimum free diskspace issue - only for lab environment not for production
 echo "[diskUsage]" >> /splunk/splunk/etc/system/local/server.conf
 echo "minFreeSpace = 50" >> /splunk/splunk/etc/system/local/server.conf
