@@ -8,12 +8,12 @@
 
 ## Download Splunk rpm from splunk portal, you need to update this link for latest splunk software, refer slide 3 and 4
 
-wget -O splunk-9.3.2-d8bb32809498.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.3.2/linux/splunk-9.3.2-d8bb32809498.x86_64.rpm"
+wget -O wget -O splunk-9.4.0-6b4ebe426ca6.x86_64.rpm "https://download.splunk.com/products/splunk/releases/9.4.0/linux/splunk-9.4.0-6b4ebe426ca6.x86_64.rpm"
 ##Create dedicated mount point/folder for splunk installation
 mkdir /splunk
 
 ##Install splunk
-rpm -ivh --prefix /splunk splunk-9.3.2-d8bb32809498.x86_64.rpm
+rpm -ivh --prefix /splunk splunk-9.4.0-6b4ebe426ca6.x86_64.rpm
 
 ## Start splunk service, and feed password along with command, you can change password once you login to splunk portal 
 /splunk/splunk/bin/splunk start --accept-license --answer-yes --no-prompt --seed-passwd Admeensd@7658
